@@ -1,0 +1,26 @@
+AI PLANET – PRODUCT FAQ
+========================
+
+Q: What is AI Planet's GenAI Stack?
+A: AI Planet's GenAI Stack is an enterprise-grade, open-source framework that enables organisations to build, deploy, and manage Generative AI applications securely. It includes support for RAG pipelines, LLM fine-tuning, vector storage integration, and agent orchestration — all deployable on-premise or on cloud infrastructure.
+
+Q: What large language models does AI Planet offer?
+A: AI Planet has developed two proprietary LLMs: effi-7b and effi-13b. These models are optimised for enterprise use cases, offering a balance between performance and cost-efficiency. They are available via the AI Planet marketplace and can be self-hosted.
+
+Q: Does AI Planet support private or on-premise deployments?
+A: Yes. AI Planet is built with enterprise data security in mind. All core components of the GenAI Stack can be deployed within a customer's own infrastructure — on-premise or private cloud — ensuring full data sovereignty and compliance with internal security policies.
+
+Q: What industries does AI Planet primarily serve?
+A: AI Planet works across multiple verticals including BFSI (banking, financial services, insurance), healthcare, retail, manufacturing, and government. Use cases range from document intelligence and knowledge management to AI-assisted compliance and customer support automation.
+
+Q: Can I integrate AI Planet's tools with my existing software stack?
+A: Yes. AI Planet's GenAI Stack is designed for interoperability. It exposes REST APIs and supports integration with databases (SQL and NoSQL), document stores, cloud platforms (AWS, Azure, GCP), and popular data pipelines. SDKs and detailed API documentation are available for developer teams.
+
+Q: What is the AI Planet Marketplace?
+A: The AI Planet Marketplace is a platform where developers and enterprises can discover, share, and deploy AI models, datasets, and applications. It hosts both open-source contributions and commercial offerings, and is backed by a community of over 300,000 AI practitioners globally.
+
+Q: Is AI Planet suitable for startups or only large enterprises?
+A: AI Planet serves both. For startups and SMEs, there are lightweight onboarding tiers and community resources. For large enterprises, AI Planet offers dedicated support, custom deployments, SLAs, and integration services.
+
+Q: How does AI Planet handle model versioning and tracking?
+A: The platform integrates with MLflow and supports experiment tracking, model registry, and version control natively. Teams can log hyperparameters, metrics, and artefacts across training runs and promote models through staging and production environments.

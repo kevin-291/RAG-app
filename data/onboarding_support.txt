@@ -1,0 +1,29 @@
+AI PLANET – PLATFORM ONBOARDING & SUPPORT GUIDE
+================================================
+
+GETTING STARTED
+New users on the AI Planet platform are provided with a dedicated onboarding session within the first 5 business days of account activation. During this session, a platform specialist will walk through core features including the model marketplace, GenAI Stack setup, and API key management. Access to the developer documentation portal is available immediately upon sign-up at docs.aiplanet.com.
+
+API KEY MANAGEMENT
+API keys are generated from the user dashboard under Settings > Developer. Each account is issued one master key by default. Additional keys can be created for team members or service accounts. Keys should never be embedded directly in source code — use environment variables or a secrets manager. Keys can be revoked at any time from the dashboard.
+
+USAGE LIMITS & QUOTAS
+Free tier accounts are subject to a rate limit of 60 API requests per minute and a monthly token cap of 500,000 tokens. Pro and Enterprise accounts have higher or custom limits based on the subscribed plan. If a limit is exceeded, the API will return a 429 Too Many Requests response with a Retry-After header indicating when to resume.
+
+SUPPORT CHANNELS
+Platform support is available through three channels:
+1. Community Forum: community.aiplanet.com — best for general questions and peer support. Response time is typically within 24 hours from the community or platform team.
+2. Email Support: support@aiplanet.com — for account issues, billing queries, or technical bugs. Response time is within 1–2 business days.
+3. Enterprise SLA Support: Dedicated Slack channel and priority response within 4 business hours. Available on Enterprise plans only.
+
+BILLING & SUBSCRIPTIONS
+Subscription plans are billed monthly or annually. Annual plans offer a 20% discount compared to monthly billing. Invoices are sent to the registered email address on the 1st of each month. Payments are processed via credit card or wire transfer for Enterprise accounts. To upgrade, downgrade, or cancel a plan, navigate to Settings > Billing in the dashboard.
+
+DATA PRIVACY & RETENTION
+All data submitted through the AI Planet platform (prompts, documents, model outputs) is encrypted at rest (AES-256) and in transit (TLS 1.3). For Pro and Enterprise users, data is not used for model training by default. Data retention is set to 90 days for free tier and configurable for paid tiers, with options for immediate deletion upon request.
+
+COMMON TROUBLESHOOTING
+- If the API returns a 401 Unauthorized error, verify that your API key is correctly set and has not been revoked.
+- If model responses are slow or timing out, check platform status at status.aiplanet.com.
+- For RAG pipeline issues, ensure that your document chunks are within the recommended token range (200–500 tokens per chunk for most models).
+- If embeddings seem inconsistent, verify that the same embedding model is used for both ingestion and query time.
